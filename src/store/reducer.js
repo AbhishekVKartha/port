@@ -1,5 +1,4 @@
 import ACTION_TYPES from "../constants/actionTypes";
-import projectImages from "../constants/images";
 
 const initialState = {
   themeName: "",

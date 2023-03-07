@@ -1,13 +1,11 @@
 import { useSelector } from "react-redux";
 import { StyleWrapper } from "./SocialMedia.styled";
-import { SiGithub, SiLinkedin, SiGmail } from "react-icons/si";
+import { SiGmail } from "react-icons/si";
 import { useState } from "react";
 import Snackbar from "@mui/material/Snackbar";
 import IconButton from "@mui/material/IconButton";
 
 const SocialMedia = () => {
-  const linkedin = useSelector((state) => state.linkedin);
-  const github = useSelector((state) => state.github);
   const emailId = useSelector((state) => state.emailId);
   const [openCopy, setOpenCopy] = useState();
 
