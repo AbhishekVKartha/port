@@ -20,12 +20,7 @@ const Project = () => {
               key={item.projectName}
             >
               <div className="text-center">
-                <img
-                  src={item.imageUrl}
-                  width="400px"
-                  height={"400px"}
-                  alt="projectImage"
-                />
+                <img src={item.imageUrl} height={"400px"} alt="projectImage" />
               </div>
               <h4>{item.projectName}</h4>
               <p className="lh-lg">{item.description}</p>
