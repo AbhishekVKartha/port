@@ -1,5 +1,5 @@
-import paw from "../assets/projects/paw.png";
-import tech from "../assets/projects/tech.png";
+import one from "../assets/projects/3.jpg";
+import two from "../assets/projects/2.jpg";
 
-const images = { paw, tech };
+const images = { one, two };
 export default images;

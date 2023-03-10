@@ -1,4 +1,5 @@
 import ACTION_TYPES from "../constants/actionTypes";
+import projectImages from "../constants/images";
 
 const initialState = {
   themeName: "",
@@ -54,6 +55,22 @@ apply my knowledge and skills for continuous improvement.`,
         • DIT-MCO tester programming and validation, Boundary scan testing, Machine communication using RS232 interface etc.
         • Hands on experience with RF equipments such as Network analyzers, 
         `,
+    },
+  ],
+  projects: [
+    {
+      projectName: "DME Test Fixture",
+      imageUrl: projectImages.one,
+      // visitLink: "https://www.pawwalker.in/",
+      description:
+        "I designed and implemented a test fixture for the DME 500 printed circuit board for Thales Company. Additionally, I programmed the DITMCO tester to check the continuity and insulation between the required points on the PCB",
+    },
+    {
+      projectName: "HLA Power Module Test Fixture",
+      imageUrl: projectImages.two,
+      // visitLink: "https://techclub.neoito.com/",
+      description:
+        "I designed and implemented test fixtures to check the smooth functioning of the Auxiliary Power Supply, CFD, AMC, RPA modules of the HLA amplifier. This amplifier is used for defense purposes and was developed by THALES company. The purpose of these fixtures was to ensure the proper functionality of the Printed Circuit Boards.",
     },
   ],
 };

@@ -7,6 +7,7 @@ import Skill from "../Skill/Skill";
 import SocialMedia from "../SocialMedia/SocialMedia";
 import Education from "../Education/Education";
 import WorkExperience from "../WorkExperience/WorkExperience";
+import Project from "../Project/Project";
 
 const Landing = (props) => {
   return (
@@ -17,7 +18,7 @@ const Landing = (props) => {
           <ProfileCard />
           <Skill />
           <WorkExperience />
-          {/* <Project /> */}
+          <Project />
           <Education />
           <SocialMedia />
           {/* <h6 className="devloper-name">

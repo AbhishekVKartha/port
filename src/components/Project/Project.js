@@ -19,24 +19,16 @@ const Project = () => {
               className="d-flex flex-column project-card"
               key={item.projectName}
             >
-              <img src={item.imageUrl} alt="projectImage" />
-              <div className="d-flex tech flex-row flex-wrap">
-                {item.techStack.map((tech) => {
-                  return <h6 key={tech}>{tech}</h6>;
-                })}
+              <div className="text-center">
+                <img
+                  src={item.imageUrl}
+                  width="400px"
+                  height={"400px"}
+                  alt="projectImage"
+                />
               </div>
               <h4>{item.projectName}</h4>
-              <p>{item.description}</p>
-              <div className="d-flex justify-start button-wrapper">
-                <a
-                  href={item.visitLink}
-                  className="btn btn-success"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live Demo
-                </a>
-              </div>
+              <p className="lh-lg">{item.description}</p>
             </div>
           );
         })}
