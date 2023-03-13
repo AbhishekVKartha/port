@@ -43,7 +43,10 @@ apply my knowledge and skills for continuous improvement.`,
       details: `• Expert in Test Automation & Functional Circuit Testing.
         • Test system Design (Requirement based testing) and development.
         • Exposure in test software development using Python and C.
-        • Spectrum analyzer, Power sensor, Signal generator etc `,
+        • Spectrum analyzer, Power sensor, Signal generator etc 
+        • DIT-MCO tester programming and validation, Boundary scan testing, Machine communication using RS232 interface etc.
+        • Hands on experience with RF equipments such as Network analyzers, 
+        `,
     },
     {
       designation: "Rolling stock technician",
@@ -52,8 +55,7 @@ apply my knowledge and skills for continuous improvement.`,
       location: "Kochi, India",
       details: `
         • Worked for Kochi Metro Rail Limited under " Asa Bhanu Technical Services Limited and have a vast knowledge about systems and sub systems of Metro trains .
-        • DIT-MCO tester programming and validation, Boundary scan testing, Machine communication using RS232 interface etc.
-        • Hands on experience with RF equipments such as Network analyzers, 
+        • Debugging faulty printed circuit boards and troubleshooting faulty equipment used in Metro trains.
         `,
     },
   ],
